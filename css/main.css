@@ -1,0 +1,15 @@
+body {
+  font-family: Palatino;
+}
+
+.book-title {
+  font-size: 30px;
+}
+
+.book-author {
+  font-size: 20px;
+}
+
+.book-category {
+  font-size: 14px;
+}
