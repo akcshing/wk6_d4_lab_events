@@ -23,12 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
     newBookCategory.textContent = category;
 
     newBook.appendChild(newBookTitle);
-    newBookTitle.classList.add("book-title");
     newBook.appendChild(newBookAuthor);
-    newBookAuthor.classList.add("book-author");
     newBook.appendChild(newBookCategory);
-    newBookCategory.classList.add("new-category");
 
+    newBookTitle.classList.add("book-title");
+    newBookAuthor.classList.add("book-author");
+    newBookCategory.classList.add("new-category");
 
     newBook.classList.add("new-item");
 
